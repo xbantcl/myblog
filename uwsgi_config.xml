@@ -1,0 +1,10 @@
+<uwsgi>
+<pythonpath>/home/daniel/daniel_blog/</pythonpath>
+<module>myapp</module>
+<callable>app</callable>
+<socket>0.0.0.0:8000</socket>
+<!-- <socket>/tmp/uwsgi.socks</socket> -->
+<processes>2</processes>
+<master/>
+<memory-report/>
+</uwsgi>
